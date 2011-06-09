@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE1920041395894900A54C68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1920031395894900A54C68 /* UIKit.framework */; };
+		EE1920061395894900A54C68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1920051395894900A54C68 /* Foundation.framework */; };
+		EE1920081395894900A54C68 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1920071395894900A54C68 /* CoreGraphics.framework */; };
+		EE19200E1395894900A54C68 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE19200C1395894900A54C68 /* InfoPlist.strings */; };
+		EE1920111395894900A54C68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1920101395894900A54C68 /* main.m */; };
+		EE1920141395894900A54C68 /* MockupAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1920131395894900A54C68 /* MockupAppDelegate.m */; };
+		EE1920171395894900A54C68 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE1920151395894900A54C68 /* MainWindow.xib */; };
+		EE19201A1395894900A54C68 /* MockupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1920191395894900A54C68 /* MockupViewController.m */; };
+		EE19201D1395894900A54C68 /* MockupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE19201B1395894900A54C68 /* MockupViewController.xib */; };
+		EE1920241395894900A54C68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1920031395894900A54C68 /* UIKit.framework */; };
+		EE1920251395894900A54C68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1920051395894900A54C68 /* Foundation.framework */; };
+		EE1920261395894900A54C68 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1920071395894900A54C68 /* CoreGraphics.framework */; };
+		EE19202E1395894900A54C68 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE19202C1395894900A54C68 /* InfoPlist.strings */; };
+		EE1920311395894900A54C68 /* MockupTests.h in Resources */ = {isa = PBXBuildFile; fileRef = EE1920301395894900A54C68 /* MockupTests.h */; };
+		EE1920331395894900A54C68 /* MockupTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1920321395894900A54C68 /* MockupTests.m */; };
+		EEC75CC9139AAB5600C67891 /* MagickData.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC75CC8139AAB5600C67891 /* MagickData.m */; };
+		EEC75CCD139AAC1800C67891 /* MagickDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC75CCC139AAC1800C67891 /* MagickDatabase.m */; };
+		EEC75CCF139AAF7400C67891 /* magicks.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = EEC75CCE139AAF7400C67891 /* magicks.sqlite3 */; };
+		EEC75CD1139AB10500C67891 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC75CD0139AB10500C67891 /* libsqlite3.0.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE1920271395894900A54C68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE191FF61395894900A54C68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE191FFE1395894900A54C68;
+			remoteInfo = Mockup;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE191FFF1395894900A54C68 /* Mockup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mockup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1920031395894900A54C68 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EE1920051395894900A54C68 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EE1920071395894900A54C68 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EE19200B1395894900A54C68 /* Mockup-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mockup-Info.plist"; sourceTree = "<group>"; };
+		EE19200D1395894900A54C68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE19200F1395894900A54C68 /* Mockup-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mockup-Prefix.pch"; sourceTree = "<group>"; };
+		EE1920101395894900A54C68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE1920121395894900A54C68 /* MockupAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MockupAppDelegate.h; sourceTree = "<group>"; };
+		EE1920131395894900A54C68 /* MockupAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MockupAppDelegate.m; sourceTree = "<group>"; };
+		EE1920161395894900A54C68 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		EE1920181395894900A54C68 /* MockupViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MockupViewController.h; sourceTree = "<group>"; };
+		EE1920191395894900A54C68 /* MockupViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MockupViewController.m; sourceTree = "<group>"; };
+		EE19201C1395894900A54C68 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MockupViewController.xib; sourceTree = "<group>"; };
+		EE1920231395894900A54C68 /* MockupTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockupTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE19202B1395894900A54C68 /* MockupTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MockupTests-Info.plist"; sourceTree = "<group>"; };
+		EE19202D1395894900A54C68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE19202F1395894900A54C68 /* MockupTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MockupTests-Prefix.pch"; sourceTree = "<group>"; };
+		EE1920301395894900A54C68 /* MockupTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MockupTests.h; sourceTree = "<group>"; };
+		EE1920321395894900A54C68 /* MockupTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MockupTests.m; sourceTree = "<group>"; };
+		EEC75CC7139AAB5600C67891 /* MagickData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagickData.h; sourceTree = "<group>"; };
+		EEC75CC8139AAB5600C67891 /* MagickData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagickData.m; sourceTree = "<group>"; };
+		EEC75CCB139AAC1800C67891 /* MagickDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagickDatabase.h; sourceTree = "<group>"; };
+		EEC75CCC139AAC1800C67891 /* MagickDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagickDatabase.m; sourceTree = "<group>"; };
+		EEC75CCE139AAF7400C67891 /* magicks.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = magicks.sqlite3; sourceTree = "<group>"; };
+		EEC75CD0139AB10500C67891 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE191FFC1395894900A54C68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC75CD1139AB10500C67891 /* libsqlite3.0.dylib in Frameworks */,
+				EE1920041395894900A54C68 /* UIKit.framework in Frameworks */,
+				EE1920061395894900A54C68 /* Foundation.framework in Frameworks */,
+				EE1920081395894900A54C68 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE19201F1395894900A54C68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE1920241395894900A54C68 /* UIKit.framework in Frameworks */,
+				EE1920251395894900A54C68 /* Foundation.framework in Frameworks */,
+				EE1920261395894900A54C68 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE191FF41395894900A54C68 = {
+			isa = PBXGroup;
+			children = (
+				EEC75CD0139AB10500C67891 /* libsqlite3.0.dylib */,
+				EE1920091395894900A54C68 /* Mockup */,
+				EE1920291395894900A54C68 /* MockupTests */,
+				EE1920001395894900A54C68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE1920001395894900A54C68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE191FFF1395894900A54C68 /* Mockup.app */,
+				EE1920231395894900A54C68 /* MockupTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE1920021395894900A54C68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE1920031395894900A54C68 /* UIKit.framework */,
+				EE1920051395894900A54C68 /* Foundation.framework */,
+				EE1920071395894900A54C68 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		EE1920091395894900A54C68 /* Mockup */ = {
+			isa = PBXGroup;
+			children = (
+				EE1920121395894900A54C68 /* MockupAppDelegate.h */,
+				EE1920131395894900A54C68 /* MockupAppDelegate.m */,
+				EE1920151395894900A54C68 /* MainWindow.xib */,
+				EE1920181395894900A54C68 /* MockupViewController.h */,
+				EE1920191395894900A54C68 /* MockupViewController.m */,
+				EE19201B1395894900A54C68 /* MockupViewController.xib */,
+				EE19200A1395894900A54C68 /* Supporting Files */,
+				EEC75CC7139AAB5600C67891 /* MagickData.h */,
+				EEC75CC8139AAB5600C67891 /* MagickData.m */,
+				EEC75CCB139AAC1800C67891 /* MagickDatabase.h */,
+				EEC75CCC139AAC1800C67891 /* MagickDatabase.m */,
+			);
+			path = Mockup;
+			sourceTree = "<group>";
+		};
+		EE19200A1395894900A54C68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEC75CCE139AAF7400C67891 /* magicks.sqlite3 */,
+				EE19200B1395894900A54C68 /* Mockup-Info.plist */,
+				EE19200C1395894900A54C68 /* InfoPlist.strings */,
+				EE19200F1395894900A54C68 /* Mockup-Prefix.pch */,
+				EE1920101395894900A54C68 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE1920291395894900A54C68 /* MockupTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE1920021395894900A54C68 /* Frameworks */,
+				EE1920301395894900A54C68 /* MockupTests.h */,
+				EE1920321395894900A54C68 /* MockupTests.m */,
+				EE19202A1395894900A54C68 /* Supporting Files */,
+			);
+			path = MockupTests;
+			sourceTree = "<group>";
+		};
+		EE19202A1395894900A54C68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE19202B1395894900A54C68 /* MockupTests-Info.plist */,
+				EE19202C1395894900A54C68 /* InfoPlist.strings */,
+				EE19202F1395894900A54C68 /* MockupTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE191FFE1395894900A54C68 /* Mockup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE1920361395894900A54C68 /* Build configuration list for PBXNativeTarget "Mockup" */;
+			buildPhases = (
+				EE191FFB1395894900A54C68 /* Sources */,
+				EE191FFC1395894900A54C68 /* Frameworks */,
+				EE191FFD1395894900A54C68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mockup;
+			productName = Mockup;
+			productReference = EE191FFF1395894900A54C68 /* Mockup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE1920221395894900A54C68 /* MockupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE1920391395894900A54C68 /* Build configuration list for PBXNativeTarget "MockupTests" */;
+			buildPhases = (
+				EE19201E1395894900A54C68 /* Sources */,
+				EE19201F1395894900A54C68 /* Frameworks */,
+				EE1920201395894900A54C68 /* Resources */,
+				EE1920211395894900A54C68 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE1920281395894900A54C68 /* PBXTargetDependency */,
+			);
+			name = MockupTests;
+			productName = MockupTests;
+			productReference = EE1920231395894900A54C68 /* MockupTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE191FF61395894900A54C68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "CSU Fresno";
+			};
+			buildConfigurationList = EE191FF91395894900A54C68 /* Build configuration list for PBXProject "Mockup" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EE191FF41395894900A54C68;
+			productRefGroup = EE1920001395894900A54C68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE191FFE1395894900A54C68 /* Mockup */,
+				EE1920221395894900A54C68 /* MockupTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE191FFD1395894900A54C68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE19200E1395894900A54C68 /* InfoPlist.strings in Resources */,
+				EE1920171395894900A54C68 /* MainWindow.xib in Resources */,
+				EE19201D1395894900A54C68 /* MockupViewController.xib in Resources */,
+				EEC75CCF139AAF7400C67891 /* magicks.sqlite3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE1920201395894900A54C68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE19202E1395894900A54C68 /* InfoPlist.strings in Resources */,
+				EE1920311395894900A54C68 /* MockupTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EE1920211395894900A54C68 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE191FFB1395894900A54C68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE1920111395894900A54C68 /* main.m in Sources */,
+				EE1920141395894900A54C68 /* MockupAppDelegate.m in Sources */,
+				EE19201A1395894900A54C68 /* MockupViewController.m in Sources */,
+				EEC75CC9139AAB5600C67891 /* MagickData.m in Sources */,
+				EEC75CCD139AAC1800C67891 /* MagickDatabase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE19201E1395894900A54C68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE1920331395894900A54C68 /* MockupTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE1920281395894900A54C68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE191FFE1395894900A54C68 /* Mockup */;
+			targetProxy = EE1920271395894900A54C68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE19200C1395894900A54C68 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE19200D1395894900A54C68 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EE1920151395894900A54C68 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE1920161395894900A54C68 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		EE19201B1395894900A54C68 /* MockupViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE19201C1395894900A54C68 /* en */,
+			);
+			name = MockupViewController.xib;
+			sourceTree = "<group>";
+		};
+		EE19202C1395894900A54C68 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE19202D1395894900A54C68 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE1920341395894900A54C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE1920351395894900A54C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		EE1920371395894900A54C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mockup/Mockup-Prefix.pch";
+				INFOPLIST_FILE = "Mockup/Mockup-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EE1920381395894900A54C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mockup/Mockup-Prefix.pch";
+				INFOPLIST_FILE = "Mockup/Mockup-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EE19203A1395894900A54C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mockup.app/Mockup";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MockupTests/MockupTests-Prefix.pch";
+				INFOPLIST_FILE = "MockupTests/MockupTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		EE19203B1395894900A54C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mockup.app/Mockup";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MockupTests/MockupTests-Prefix.pch";
+				INFOPLIST_FILE = "MockupTests/MockupTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE191FF91395894900A54C68 /* Build configuration list for PBXProject "Mockup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE1920341395894900A54C68 /* Debug */,
+				EE1920351395894900A54C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE1920361395894900A54C68 /* Build configuration list for PBXNativeTarget "Mockup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE1920371395894900A54C68 /* Debug */,
+				EE1920381395894900A54C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE1920391395894900A54C68 /* Build configuration list for PBXNativeTarget "MockupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE19203A1395894900A54C68 /* Debug */,
+				EE19203B1395894900A54C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE191FF61395894900A54C68 /* Project object */;
+}
